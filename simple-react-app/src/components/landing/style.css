@@ -1,0 +1,14 @@
+.landing {
+  padding: 0 135px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.apply, .subscribe {
+  height: 40px;
+}
