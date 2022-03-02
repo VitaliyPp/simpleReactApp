@@ -9,9 +9,6 @@ export default function Landing() {
 
   // const count = useSelector((state) => state.value);
 
-  
-  // count.teacher.then(res => console.log(res));
-
   return (
     <div className="landing">
 

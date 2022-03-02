@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import data from '../assets/data/data'
+import data from '../redux/redux'
 
 export default configureStore({
   reducer: {
