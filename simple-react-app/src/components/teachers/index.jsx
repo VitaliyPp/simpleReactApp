@@ -4,26 +4,25 @@ import { connect } from "react-redux";
 import { data } from '../../redux/api';
 import './style.css';
 
-function Courses({ getCourses, getCoursesAction }) {
+function Teachers({ getTeachers, getTeachersAction }) {
 
   useEffect(() => {
-    getCoursesAction();
+    getTeachersAction();
   }, []);
 
   return(
-    <div className="courses">
-      
+    <div className="Teachers">
     </div>
   )
 }
 
 const mapStateToProps = (state) => {
   return {
-    getCourses: state.getCourses,
+    getTeachers: state.getTeachers,
   };
 };
 
 const mapDispatchToProps = {
-  getCoursesAction: data.getCourses,
+  getTeachersAction: data.getTeachers,
 };
-export default connect(mapStateToProps, mapDispatchToProps)(Courses);
+export default connect(mapStateToProps, mapDispatchToProps)(Teachers);
